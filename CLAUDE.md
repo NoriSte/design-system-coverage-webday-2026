@@ -12,13 +12,13 @@ npm run export   # Export to PDF
 
 ## Key Files for Customization
 
-| What to Change | File | Location in File |
-|----------------|------|------------------|
-| Theme/Colors | `slides.md` | Frontmatter `theme:` (line 2) |
-| Slide content | `slides.md` | Main content (734 lines) |
+| What to Change   | File                  | Location in File              |
+| ---------------- | --------------------- | ----------------------------- |
+| Theme/Colors     | `slides.md`           | Frontmatter `theme:` (line 2) |
+| Slide content    | `slides.md`           | Main content (734 lines)      |
 | Animation slides | `bitmap-animation.md` | Included via `src:` directive |
-| Export filename | `slides.md` | Frontmatter `exportFilename:` |
-| Title | `slides.md` | Frontmatter `title:` |
+| Export filename  | `slides.md`           | Frontmatter `exportFilename:` |
+| Title            | `slides.md`           | Frontmatter `title:`          |
 
 ## Changing Colors
 
@@ -88,7 +88,7 @@ canvasWidth: 980       # Base canvas width in pixels
 
 ### Current Key Images
 - Cover background: `/images/cover_01.jpeg`
-- Speaker photos: `/images/stefano01.jpg`, `/images/matteo01.jpg`
+- Speaker photos: `/images/ste-1000x1000-progressive.jpg`, `/images/matteo01.jpg`
 - QR code: `/qrcode.png`
 - Dashboard screenshot: `/dashboard.png`
 - Step diagrams: `/step1.png` through `/step6-2.png`

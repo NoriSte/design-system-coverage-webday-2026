@@ -97,7 +97,7 @@ In this talk, we will discuss why, what, how, and how you can use our DS visual 
 
 ---
 layout: image-right
-image: /images/stefano01.jpg
+image: /images/ste-1000x1000-progressive.jpg
 ---
 
 # Stefano Magni
@@ -140,7 +140,7 @@ layout: intro
 
 ---
 layout: image-left
-image: /images2/meeting_01.png
+image: /images/laptop.svg
 ---
 
 # Measuring Impact
