@@ -141,6 +141,7 @@ layout: intro
 ---
 layout: image-left
 image: /images/laptop.svg
+backgroundSize: contain
 ---
 
 # Measuring Impact
@@ -167,7 +168,8 @@ One big difference between Platform teams and Product/Feature teams is how they 
 
 ---
 layout: image-left
-image: /images2/meeting_02.png
+image: /images/meeting-with-tutor-2.svg
+backgroundSize: contain
 ---
 
 # Measuring Impact
@@ -191,7 +193,9 @@ image: /images2/meeting_02.png
 
 ---
 layout: image-left
-image: /images2/static-analysis.jpeg
+image: /images/lamp-and-books.svg
+backgroundSize: contain
+
 ---
 
 # Static Analysis
@@ -216,7 +220,9 @@ But this tells nothing to the leadership team!
 
 ---
 layout: image-left
-image: /images2/heat-map2.jpeg
+image: /images2/laptop-2.svg
+backgroundSize: contain
+
 ---
 
 # Visual Coverage
@@ -251,7 +257,8 @@ We made some POCs: should we measure the usage of the DS tokens? Of the DS compo
 
 ---
 layout: image-right
-image: /images/brainstorming.jpeg
+image: /images2/brain.svg
+backgroundSize: contain
 ---
 # Requirements
 <br />
@@ -280,7 +287,8 @@ layout: center
 
 ---
 layout: image-right
-image: /images2/mad-scientist.jpeg
+image: /images2/brain.svg
+backgroundSize: contain
 ---
 
 <v-clicks>
@@ -289,7 +297,7 @@ image: /images2/mad-scientist.jpeg
 - ### <div class="mb-4">Should we measure the usage of the <span class="text-red">DS components?</span></div>
 - ### <div class="mb-2">What do we want to measure?</div>
   - ### <div class="mb-2">Areas</div>
-  - ### <div class="mb-2 text-red">Borders</div>
+  - ### <div class="mb-2">Borders</div>
   - ### <div class="mb-2">Or what?</div>
 
 </v-clicks>
@@ -302,7 +310,8 @@ layout: center
 
 ---
 layout: image-left
-image: /images2/draw-lines1.png
+image: /images2/page-with-coverage.png
+backgroundSize: contain
 ---
 
 ### <div class="mb-4">The visual coverage formula is:</div>
@@ -352,7 +361,8 @@ layout: center
 
 ---
 layout: image-left
-image: /images2/draw-lines2.png
+image: /images2/page-with-coverage.png
+backgroundSize: contain
 ---
 
 <v-clicks>
@@ -380,7 +390,8 @@ layout: statement
 
 ---
 layout: image-left
-image: /images2/draw-lines0.jpg
+image: /images2/SCR-20260326-lizj-2.png
+backgroundSize: contain
 ---
 
 <v-clicks>
@@ -469,7 +480,8 @@ in production, during users' sessions, on their device!
 
 ---
 layout: image-right
-image: /images/change-of-strategy.png
+image: /images2/brain.svg
+backgroundSize: contain
 ---
 
 # It may sound wild, but...
@@ -531,7 +543,8 @@ The DS visual coverage is made of two steps:
 
 ---
 layout: image-left
-image: /images2/analyze.jpeg
+image: /images2/arrows-upwards.svg
+backgroundSize: contain
 ---
 
 # Analyze
@@ -547,7 +560,8 @@ image: /images2/analyze.jpeg
 
 ---
 layout: image-left
-image: /images2/optimize.jpeg
+image: /images2/bar-graph.svg
+backgroundSize: contain
 ---
 
 # Optimize the parser
@@ -573,7 +587,8 @@ This is the idea:
 
 ---
 layout: image-right
-image: /images2/bitmap.jpeg
+image: /images2/artist.svg
+backgroundSize: contain
 ---
 
 # Draw the bitmap
@@ -598,7 +613,8 @@ Regarding the bitmap:
 
 ---
 layout: image-right
-image: /images2/bitmap2.jpeg
+image: /images2/bar-graph.svg
+backgroundSize: contain
 ---
 
 # Bitmap Optimization
