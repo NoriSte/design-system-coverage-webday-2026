@@ -158,7 +158,7 @@ backgroundSize: contain
 - We saved 100K $ 😍
 - Lifetime value increased by 1% 😍
 
-## <div class="mt-10">DS team</div>
+## <div class="mt-10">DS team:</div>
 - Our shiny button is used 176 times 😥🤔
 
 </v-clicks>
@@ -169,6 +169,24 @@ One big difference between Platform teams and Product/Feature teams is how they 
   - Product teams measure their work in conversions/revenues/money
   - And DS teams?...
 -->
+
+---
+layout: image-left
+image: /images/laptop.svg
+backgroundSize: contain
+---
+
+# Measuring Impact
+<br />
+
+## Product teams:
+- We increased conversions by 10% 😍
+- We saved 100K $ 😍
+- Lifetime value increased by 1% 😍
+
+## <div class="mt-10">DS team:</div>
+- ~~Our shiny button is used 176 times~~ 🤔
+
 
 ---
 layout: image-left
@@ -184,14 +202,11 @@ backgroundSize: contain
 - We saved 100K $ 😍
 - Lifetime value increased by 1% 😍
 
-## <div class="mt-10">DS team</div>
+## <div class="mt-10">DS team:</div>
 - ~~Our shiny button is used 176 times~~ 🤔
-
-<v-clicks>
-
 - 40% of the UI is built with the DS 🤯👏
 
-</v-clicks>
+
 
 
 
@@ -328,7 +343,7 @@ green pixels / (green pixels + red pixels)
 <v-clicks>
 
 - ### <div class="mt-10 mb-4">It's a percentage value</div>
-- ### <div class="mb-4">It directly measures what the user sees.</div>
+- ### <div class="mb-4">It directly measures what the users see.</div>
 
 </v-clicks>
 
@@ -375,6 +390,13 @@ backgroundSize: contain
 - ### <div class="mb-4">The weight of a component is <span class="text-red">subjective</span> and unique per <span class="text-red">Product.</span></div>
 
 </v-clicks>
+
+---
+layout: image
+image: /images/score.png
+class: hide-logo
+---
+
 
 
 <!--
@@ -518,7 +540,7 @@ layout: default
 
 - ### <div class="mb-4">Users navigate to all the pages (the E2E tests cover mostly happy paths)</div>
 - ### <div class="mb-4">Measuring what the users see aligns with the <span class="text-red">business goals</span></div>
-- ### <div class="mb-4">More significant data set to collect</div>
+- ### <div class="mb-4">More significant data set to collect (like page popularity)</div>
 - ### <div class="mb-4">Independence from the Product teams.</div>
 
 </v-clicks>
@@ -632,7 +654,7 @@ backgroundSize: contain
 - ### <div class="mb-4">Transform the array to be <span class="text-red">mono-dimensional</span></div>
 - ### <div class="mb-4">Switch to <span class="text-red">Typed Arrays</span></div>
 - ### <div class="mb-4">Make the code branch-free, removing most conditional statements</div>
-- ### <div class="mb-4">Run the bitmap drawing in a <span class="text-red">Web Worker</span></div>
+- ### <div class="mb-4">Run the bitmap drawing in a <span class="text-red">Web Worker</span>.</div>
 
 </v-clicks>
 
@@ -739,16 +761,19 @@ layout: default
 # What about React Native?
 <br />
 
+## (2024)
+
 <v-clicks>
 
-- ### <div class="mb-4">It doesn't offer the same convenient <span class="text-red">worker APIs</span></div>
-- ### <div class="mb-4">It doesn't offer a way to query the DOM yet</div>
-- ### <div class="mb-4">For now, we run the coverage in <span class="text-red">E2E tests</span></div>
+
+- ### <div class="mb-4">It didn't offer the same convenient <span class="text-red">worker APIs</span> (now it does)</div>
+- ### <div class="mb-4">It didn't offer a way to query the tree yet without blocking the UI</div>
+- ### <div class="mb-4">We run the coverage in <span class="text-red">E2E tests</span></div>
 - ### <div class="mb-8">A small <span class="text-red">Swift</span> script extract the available view coordinates</div>
-- ### <div class="mb-2">In the future</div>
-  - ### <div class="mb-2">worklets</div>
-  - ### <div class="mb-2">react-strict-dom</div>
-  - ### <div class="mb-2">Could simplify the process.</div>
+
+- ### <div class="mb-2">Given it's riskier than on Web...</div>
+  - ### <div class="mb-2">Our plan is to check if static analysis is a proxy metric for visual coverage.</div>
+
 
 </v-clicks>
 
