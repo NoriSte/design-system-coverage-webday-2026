@@ -3,9 +3,9 @@ theme: seriph
 canvasWidth: 1200
 aspectRatio: '1200/628'
 transition: none
-background: /images/cover_02.jpeg
 title: Design System Visual Coverage
-class: text-center
+layout: image
+image: /images/cover_02.jpeg
 drawings:
   persist: false
 # enable MDC Syntax: https://sli.dev/features/mdc
@@ -20,21 +20,18 @@ export:
 favicon: 'https://cdn.jsdelivr.net/gh/slidevjs/slidev/favicon.png'
 ---
 
-<!-- <div class="text-white">The story of how we measure the impact of our design systems in production!</div> -->
-
-<!-- # <div class="text-white">Design System <span class="text-red">Visual</span> Coverage</div> -->
-
-<div class="abs-br m-6 text-xl">
-  <a href="https://github.com/preply/design-system-visual-coverage" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
 <!--
 Hi everyone!
 This talk tells the story of how we measured the impact of our design systems directly in production through visual coverage.
 All the code is Open Source and available on GitHub. The link is on the slides!
 -->
+
+---
+layout: image
+image: /images/kudos.png
+---
+
+
 
 ---
 layout: statement
@@ -747,3 +744,8 @@ layout: statement
 [grusp.org/<span class="text-red">agenda</span>](https://grusp.org/agenda)
 
 [<span class="text-red">preply</span>.com/en/careers](https://preply.com/en/careers) <span style="display: inline-flex; width: 50%;"></span> [careers.<span class="text-red">workwave</span>.com](https://careers.workwave.com/)
+
+---
+layout: image
+image: /images/thanks.png
+---
