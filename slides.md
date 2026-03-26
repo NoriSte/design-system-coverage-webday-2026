@@ -1,7 +1,9 @@
 ---
 theme: seriph
+canvasWidth: 1200
+aspectRatio: '1200/628'
 transition: none
-background: /images/cover_01.jpeg
+background: /images/cover_02.jpeg
 title: Design System Visual Coverage
 class: text-center
 drawings:
@@ -18,9 +20,9 @@ export:
 favicon: 'https://cdn.jsdelivr.net/gh/slidevjs/slidev/favicon.png'
 ---
 
-<div class="text-white">The story of how we measure the impact of our design systems in production!</div>
+<!-- <div class="text-white">The story of how we measure the impact of our design systems in production!</div> -->
 
-# <div class="text-white">Design System <span class="text-red">Visual</span> Coverage</div>
+<!-- # <div class="text-white">Design System <span class="text-red">Visual</span> Coverage</div> -->
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/preply/design-system-visual-coverage" target="_blank" class="slidev-icon-btn">
@@ -696,13 +698,12 @@ layout: default
 
 <v-clicks>
 
-- ### <div class="mb-4">✅ Preply battle tested in production (1+ year)</div>
+- ### <div class="mb-4">✅ Preply battle tested in production (2+ years)</div>
 - ### <div class="mb-2">✅ Detailed articles</div>
   - ### <div class="mb-2">[Visual coverage part 1](https://shorturl.at/FmcXr)</div>
   - ### <div class="mb-2">[Visual coverage part 2](https://shorturl.at/7Pj5Z)</div>
   - ### <div class="mb-2">For more articles go to [medium.com/preply-engineering](https://medium.com/preply-engineering)</div>
 - ### <div class="mb-4">✅ Open Source the project</div>
-- ### <div class="mb-4">🚧 Implementing a devtool</div>
 - ### <div class="mb-4">🚧 Scaling it at WorkWave</div>
 - ### <div class="mb-4">🚧 Helping <span class="text-red">[docplanner.com](https://www.docplanner.com/)</span> and <span class="text-red">[monday.com](https://monday.com/)</span> to adopt it.</div>
 
