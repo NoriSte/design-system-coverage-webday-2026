@@ -2,7 +2,7 @@
 
 Slides deck for the talk at the [JSDay 2025](https://www.jsday.it/talks_speakers/#DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications) in Bologna.
 
-[See the slides](https://cef62.github.io/design-system-coverage-jsday-2025/)
+[See the slides](https://noriste.github.io/design-system-coverage-webday-2026/)
 
 ## Visual Coverage GitHub Repository
 
@@ -12,5 +12,3 @@ Slides deck for the talk at the [JSDay 2025](https://www.jsday.it/talks_speakers
 
 - [Visual coverage part 1](https://shorturl.at/FmcXr)
 - [Visual coverage part 2](https://shorturl.at/7Pj5Z)
-
-
