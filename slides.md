@@ -18,6 +18,7 @@ export:
   withClicks: true
   withToc: false
 favicon: 'https://cdn.jsdelivr.net/gh/slidevjs/slidev/favicon.png'
+class: hide-logo
 ---
 
 <!--
@@ -29,6 +30,7 @@ All the code is Open Source and available on GitHub. The link is on the slides!
 ---
 layout: image
 image: /images/kudos.png
+class: hide-logo
 ---
 
 
@@ -53,6 +55,7 @@ So, we needed a metric that measures the DS impact from a product and user persp
 
 ---
 layout: two-cols
+class: stefanociao
 ---
 
 # What
@@ -84,9 +87,9 @@ layout: statement
 
 # How
 
-### We calculate the coverage in users' devices
-### by using <span class="text-red">idle callbacks</span>, <span class="text-red">web workers</span>, and <span class="text-red">typed arrays</span>
-### without affecting the UX.
+## We calculate the coverage in users' devices
+## by using <span class="text-red">idle callbacks</span>, <span class="text-red">web workers</span>, and <span class="text-red">typed arrays</span>
+## without affecting the UX.
 
 <!--
 We used many tricks to optimize the CPU and memory performances so that we could run the DS visual coverage straight in production during user sessions without impacting their UX.
@@ -97,6 +100,7 @@ In this talk, we will discuss why, what, how, and how you can use our DS visual 
 ---
 layout: image-right
 image: /images/ste-1000x1000-progressive.jpg
+class: hide-logo
 ---
 
 # Stefano Magni
@@ -115,6 +119,7 @@ image: /images/ste-1000x1000-progressive.jpg
 ---
 layout: image-right
 image: /images/matteo01.jpg
+class: hide-logo
 ---
 
 # Matteo Ronchi
@@ -148,12 +153,12 @@ backgroundSize: contain
 
 <v-clicks>
 
-### Product teams:
+## Product teams:
 - We increased conversions by 10% 😍
 - We saved 100K $ 😍
 - Lifetime value increased by 1% 😍
 
-### <div class="mt-10">DS team</div>
+## <div class="mt-10">DS team</div>
 - Our shiny button is used 176 times 😥🤔
 
 </v-clicks>
@@ -174,12 +179,12 @@ backgroundSize: contain
 # Measuring Impact
 <br />
 
-### Product teams:
+## Product teams:
 - We increased conversions by 10% 😍
 - We saved 100K $ 😍
 - Lifetime value increased by 1% 😍
 
-### <div class="mt-10">DS team</div>
+## <div class="mt-10">DS team</div>
 - ~~Our shiny button is used 176 times~~ 🤔
 
 <v-clicks>
@@ -206,7 +211,7 @@ backgroundSize: contain
 - ### <div class="mb-4">Identifying the components most used</div>
 - ### <div class="mb-4">Identifying the components requiring the <span class="text-red">most maintenance</span></div>
 
-- ## Those Metrics Are Not helping the leadership.
+- ### **Those Metrics Are Not helping the leadership.**
 
 </v-clicks>
 
@@ -398,6 +403,8 @@ backgroundSize: contain
 - ### <div class="mb-4">Multiple <span class="text-red">teams</span> can work on the same pages</div>
 - ### <div class="mb-4">A page coverage must be calculated per <span class="text-red">team.</span></div>
 
+</v-clicks>
+
 
 <!--
 Then we needed to split pages by teams, because some pages can be owned by multiple Product teams.
@@ -405,7 +412,7 @@ Then we needed to split pages by teams, because some pages can be owned by multi
 This is fundamental to identify DS usage issues, and allow Product teams to have a dedicated DS visual coverage percentage, and they can also use it to set their quarterly ORKs.
 -->
 
-</v-clicks>
+
 
 ---
 layout: intro
@@ -531,7 +538,7 @@ src: ./bitmap-animation.md
 layout: statement
 ---
 
-# It's a <span class="text-red">two-steps</span> process
+# It's a <span class="text-red">two-step</span> process
 
 <!--
 Let's look at how we implemented it.
@@ -625,7 +632,7 @@ backgroundSize: contain
 - ### <div class="mb-4">Transform the array to be <span class="text-red">mono-dimensional</span></div>
 - ### <div class="mb-4">Switch to <span class="text-red">Typed Arrays</span></div>
 - ### <div class="mb-4">Make the code branch-free, removing most conditional statements</div>
-- ### <div class="mb-4">Run the bitmap drawing in a <span class="text-red">[Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)</span></div>
+- ### <div class="mb-4">Run the bitmap drawing in a <span class="text-red">Web Worker</span></div>
 
 </v-clicks>
 
@@ -693,6 +700,7 @@ layout: default
 ---
 layout: image
 image: /images/dashboard.webp
+class: hide-logo
 ---
 
 
@@ -768,4 +776,5 @@ layout: statement
 ---
 layout: image
 image: /images/thanks.png
+class: hide-logo
 ---

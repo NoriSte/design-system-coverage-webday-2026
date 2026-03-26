@@ -748,12 +748,13 @@ h1,
 h1 *,
 h2,
 h2 *,
-h3,
-h3 *,
-h4,
-h4 *,
-h5,
-h5 * {
+/* h3, */
+/* h3 *, */
+/* h4, */
+/* h4 *, */
+/* h5, */
+/* h5 *, */
+h10 * {
   font-family:
     'Platform', 'Platform-fallback', 'Platform-fallback-android', 'Noto Sans', 'NotoSans-fallback',
     'NotoSans-fallback-android', sans-serif;
@@ -776,4 +777,29 @@ h5 * {
 /* Fix black background for image-left and image-right layouts */
 .grid.grid-cols-2 > .w-full.h-full {
   background-color: #ffffff;
+}
+
+/* Global logo - shown by default on all slides */
+.slidev-layout::after {
+  content: '';
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  width: 100px;
+  height: 32px;
+  background-image: url('/images/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* z-index: -1; */
+}
+
+/* Hide logo on slides with hide-logo class */
+.slidev-layout.hide-logo::after {
+  display: none;
+}
+
+/* hiding the logo behind the video */
+.slidev-page-4 > .slidev-layout::after {
+  display: none;
 }
