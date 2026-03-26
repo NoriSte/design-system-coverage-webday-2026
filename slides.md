@@ -12,7 +12,7 @@ exportFilename: design-coverage-jsday-2025
 download: true
 export:
   format: pdf
-  dark: true
+  dark: false
   withClicks: true
   withToc: false
 favicon: 'https://cdn.jsdelivr.net/gh/slidevjs/slidev/favicon.png'
@@ -86,7 +86,7 @@ layout: statement
 # How
 
 ### We calculate the coverage in users' devices
-### by using <span class="text-red">_idle callbacks_</span>, <span class="text-red">_web workers_</span>, and <span class="text-red">_typed arrays_</span>
+### by using <span class="text-red">idle callbacks</span>, <span class="text-red">web workers</span>, and <span class="text-red">typed arrays</span>
 ### without affecting the UX.
 
 <!--
@@ -101,7 +101,7 @@ image: /images/stefano01.jpg
 ---
 
 # Stefano Magni
-### <div class="text-orange">Senior Front-end Engineer</div>
+### <div class="text-orange">Senior Front-end Engineer II</div>
 ### <div class="text-orange">Design System Tech Lead</div>
 #### [@Preply](https://preply.com/)
 
@@ -136,7 +136,7 @@ layout: intro
 ---
 
 # WHY
-#### <div class="text-red">are we doing it?</div>
+#### are we doing it?
 
 ---
 layout: image-left
@@ -242,7 +242,7 @@ layout: intro
 ---
 
 # WHAT
-#### <div class="text-red">are we doing</div>
+#### are we doing
 
 <!--
 That's why we started thinking about coloring the DOM elements directly on the actual web pages.
@@ -344,8 +344,7 @@ layout: center
 # But as we discovered...
 
 ---
-layout: cover
-background: /images/component-weight.png
+layout: center
 ---
 
 # Not all the components' <span class="text-red">weights</span> are the same
@@ -403,7 +402,7 @@ layout: intro
 ---
 
 # HOW
-#### <span class="text-red">are we doing it</span>
+#### are we doing it
 
 ---
 layout: default
@@ -556,7 +555,7 @@ image: /images2/optimize.jpeg
 
 <v-clicks>
 
-- ### <div class="mb-4">Traverse using [Idle Callbacks](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback)</div>
+- ### <div class="mb-4">Traverse using Idle Callbacks</div>
 - ### <div class="mb-4">The browser provides a time window to act</div>
 - ### <div class="mb-4">The parser <span class="text-red">pauses and resumes</span> as needed</div>
 - ### <div class="mb-4">The parser <span class="text-red">accepts</span> incomplete DOM trees.</div>
@@ -640,12 +639,12 @@ layout: statement
 layout: default
 ---
 
-- ### <div class="mt-10 mb-10">❌ The initial implementation took `5 blocking seconds` </div>
+- ### <div class="mt-10 mb-10">❌ The initial implementation took <span class="text-red">5 blocking seconds</span> </div>
 <v-clicks>
 
-- ### <div class="mb-10">🚧 The first bitmap-based version took `50 blocking ms`, and `30MB` of memory </div>
-- ### <div class="mb-14">✅ The final version took `35 non-blocking ms`, and `0.3 MB` of memory </div>
-- ### ℹ *The Huawei P9 takes `900 non-blocking ms` on a big page.*
+- ### <div class="mb-10">🚧 The first bitmap-based version took <span class="text-red">50 blocking ms</span>, and <span class="text-red">30MB</span> of memory </div>
+- ### <div class="mb-14">✅ The final version took <span class="text-red">35 non-blocking ms</span>, and <span class="text-red">0.3 MB</span> of memory </div>
+- ### ℹ *The Huawei P9 takes <span class="text-red">900 non-blocking ms</span> on a big page.*
 
 </v-clicks>
 
@@ -707,8 +706,8 @@ layout: default
 - ### <div class="mb-4">For now, we run the coverage in <span class="text-red">E2E tests</span></div>
 - ### <div class="mb-8">A small <span class="text-red">Swift</span> script extract the available view coordinates</div>
 - ### <div class="mb-2">In the future</div>
-  - ### <div class="mb-2">`worklets`</div>
-  - ### <div class="mb-2">`react-strict-dom`</div>
+  - ### <div class="mb-2">worklets</div>
+  - ### <div class="mb-2">react-strict-dom</div>
   - ### <div class="mb-2">Could simplify the process.</div>
 
 </v-clicks>
