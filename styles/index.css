@@ -772,3 +772,8 @@ h5 * {
 .text-orange {
   color: #4d4c5c !important;
 }
+
+/* Fix black background for image-left and image-right layouts */
+.grid.grid-cols-2 > .w-full.h-full {
+  background-color: #ffffff;
+}
