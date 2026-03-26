@@ -690,6 +690,24 @@ layout: default
 layout: default
 ---
 
+---
+layout: image
+image: /images/dashboard.webp
+---
+
+
+---
+layout: image
+image: /images/progress-1.png
+---
+
+---
+layout: image
+image: /images/progress-2.png
+---
+
+---
+
 # The progress so far
 <br />
 
@@ -727,6 +745,7 @@ layout: default
 </v-clicks>
 
 
+
 ---
 layout: statement
 ---
@@ -734,16 +753,17 @@ layout: statement
 ## [<span class="text-gray">github.com/preply/</span><span class="text-red">design-system-visual-coverage</span>](https://github.com/preply/design-system-visual-coverage)
 <br />
 
-## <span class="text-red">Thank you!</span>
 <br />
 
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 1rem;">
   <img src="/qrcode.png" width="25%" />
 </div>
 
-[grusp.org/<span class="text-red">agenda</span>](https://grusp.org/agenda)
 
-[<span class="text-red">preply</span>.com/en/careers](https://preply.com/en/careers) <span style="display: inline-flex; width: 50%;"></span> [careers.<span class="text-red">workwave</span>.com](https://careers.workwave.com/)
+<br />
+
+## [<span class="text-red">We hire</span>](https://preply.com/en/careers) in Barcelona, London, Kiev
+[preply.com/en/careers](https://preply.com/en/careers)
 
 ---
 layout: image
