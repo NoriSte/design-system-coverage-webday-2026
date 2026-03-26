@@ -124,7 +124,7 @@ transition: none                           # Slide transitions
 background: /images/cover_01.jpeg          # Cover background
 title: Design System Visual Coverage       # Presentation title
 class: text-center                         # CSS class for first slide
-exportFilename: design-coverage-jsday-2025 # PDF export name
+exportFilename: design-coverage-webday-2026 # PDF export name
 download: true                             # Show download button
 export:
   format: pdf

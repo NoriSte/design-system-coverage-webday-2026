@@ -1,6 +1,6 @@
 # Design System Visual Coverage
 
-Slides deck for the talk at the [JSDay 2025](https://www.jsday.it/talks_speakers/#DesignSystemVisualCoverageInWebAndApp(ReactNative)Applications) in Bologna.
+Slides deck for the talk at the [WebDay 2026](https://www.webdayconf.it/e/sessione/5119/How-to-track-and-guide-the-Design-System-adoption-in-React-and-React-Native) in Bologna.
 
 [See the slides](https://noriste.github.io/design-system-coverage-webday-2026/)
 

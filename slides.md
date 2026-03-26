@@ -10,7 +10,7 @@ drawings:
   persist: false
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
-exportFilename: design-coverage-jsday-2025
+exportFilename: design-coverage-webday-2026
 download: true
 export:
   format: pdf
