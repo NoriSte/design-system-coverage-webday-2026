@@ -185,7 +185,7 @@ backgroundSize: contain
 - Lifetime value increased by 1% 😍
 
 ## <div class="mt-10">DS team:</div>
-- ~~Our shiny button is used 176 times~~ 🤔
+- ~~Our shiny button is used 176 times~~ 😥🤔
 
 
 ---
@@ -249,7 +249,7 @@ backgroundSize: contain
 
 <v-clicks>
 
-- ### <div class="mb-4">Measuring the impact on specific pages</div>
+- ### <div class="mb-4">Measuring the impact on real pages</div>
 - ### <div class="mb-4">Identifying the pages <span class="text-red">most impacted</span> by the DS</div>
 - ### <div class="mb-4">Provides metrics that can be included in a Company's goals.</div>
 
@@ -329,7 +329,7 @@ layout: center
 
 ---
 layout: image-left
-image: /images2/page-with-coverage.png
+image: /images2/no-weight.jpg
 backgroundSize: contain
 ---
 
@@ -380,16 +380,36 @@ layout: center
 
 ---
 layout: image-left
-image: /images2/page-with-coverage.png
+image: /images2/no-weight.jpg
 backgroundSize: contain
 ---
 
 <v-clicks>
 
 - ### <div class="mb-4">The coverage must express the <span class="text-red">impact</span> on the user (UI/UX/A11y)</div>
-- ### <div class="mb-4">The weight of a component is <span class="text-red">subjective</span> and unique per <span class="text-red">Product.</span></div>
 
 </v-clicks>
+
+---
+layout: image-left
+image: /images2/with-weights.jpg
+backgroundSize: contain
+---
+
+
+- ### <div class="mb-4">The coverage must express the <span class="text-red">impact</span> on the user (UI/UX/A11y)</div>
+
+---
+layout: image-left
+image: /images2/with-weights.jpg
+backgroundSize: contain
+---
+
+
+- ### <div class="mb-4">The coverage must express the <span class="text-red">impact</span> on the user (UI/UX/A11y)</div>
+- ### <div class="mb-4">The weight of a component is <span class="text-red">subjective</span> and unique per <span class="text-red">Product.</span></div>
+
+
 
 ---
 layout: image
@@ -772,7 +792,7 @@ layout: default
 - ### <div class="mb-8">A small <span class="text-red">Swift</span> script extract the available view coordinates</div>
 
 - ### <div class="mb-2">Given it's riskier than on Web...</div>
-  - ### <div class="mb-2">Our plan is to check if static analysis is a proxy metric for visual coverage.</div>
+  - ### <div class="mb-2">Is static analysis a valuable proxy metric for visual coverage?</div>
 
 
 </v-clicks>
