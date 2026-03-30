@@ -55,7 +55,6 @@ So, we needed a metric that measures the DS impact from a product and user persp
 
 ---
 layout: two-cols
-class: stefanociao
 ---
 
 # What
@@ -800,23 +799,26 @@ layout: default
 
 
 ---
-layout: statement
+layout: image-right
+image: /qrcode.png
+class: hide-logo
 ---
 
 ## [<span class="text-gray">github.com/preply/</span><span class="text-red">design-system-visual-coverage</span>](https://github.com/preply/design-system-visual-coverage)
-<br />
 
-<br />
+<br /><br /><br /><br />
 
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; gap: 1rem;">
-  <img src="/qrcode.png" width="25%" />
-</div>
-
-
-<br />
-
-## [<span class="text-red">We hire</span>](https://preply.com/en/careers) in Barcelona, London, Kiev
+## [<span class="text-red">We hire</span>](https://preply.com/en/careers) in Barcelona, London, Kyiv
 [preply.com/en/careers](https://preply.com/en/careers)
+
+<br /><br /><br /><br />
+
+
+- [<span class="text-gray">linkedin/</span>noriste](https://www.linkedin.com/in/noriste/)
+- [<span class="text-gray">x.com/</span>noriste](https://x.com/noriste)
+- [<span class="text-gray">bsky.app/</span>noriste.bsky.social](https://bsky.app/profile/noriste.bsky.social)
+- [<span class="text-gray">github/</span>noriste](https://github.com/noriste)
+
 
 ---
 layout: image
