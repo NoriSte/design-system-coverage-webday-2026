@@ -36,6 +36,24 @@ class: hide-logo
 
 
 ---
+layout: center
+class: text-center
+---
+
+# These slides are <span class="text-red">public</span>!
+
+<div class="flex flex-col items-center gap-4 mt-8">
+  <img src="/slides-qrcode.png" class="w-48 h-48" alt="QR Code" />
+  <a href="https://noriste.github.io/design-system-coverage-webday-2026" target="_blank" class="text-xl">
+    noriste.github.io/design-system-coverage-webday-2026
+  </a>
+</div>
+
+<!--
+You can access these slides online at any time by scanning the QR code or visiting the URL.
+-->
+
+---
 layout: statement
 ---
 
@@ -800,18 +818,23 @@ layout: default
 
 ---
 layout: image-right
-image: /qrcode.png
+image: /slides-qrcode.png
 class: hide-logo
 ---
 
-## [<span class="text-gray">github.com/preply/</span><span class="text-red">design-system-visual-coverage</span>](https://github.com/preply/design-system-visual-coverage)
+## Slides - [noriste.github.io/design-system-coverage-webday-2026](https://noriste.github.io/design-system-coverage-webday-2026/)
 
-<br /><br /><br /><br />
+
+<br />
+
+## OSS repo - [<span class="text-gray">github.com/preply/</span><span class="text-red">design-system-visual-coverage</span>](https://github.com/preply/design-system-visual-coverage)
+
+<br /><br />
 
 ## [<span class="text-red">We hire</span>](https://preply.com/en/careers) in Barcelona, London, Kyiv
 [preply.com/en/careers](https://preply.com/en/careers)
 
-<br /><br /><br /><br />
+<br />
 
 
 - [<span class="text-gray">linkedin/</span>noriste](https://www.linkedin.com/in/noriste/)
